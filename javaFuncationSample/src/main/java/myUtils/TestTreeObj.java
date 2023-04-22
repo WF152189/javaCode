@@ -1,4 +1,4 @@
-package utils;
+package myUtils;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.*;
@@ -15,7 +15,7 @@ import java.util.List;
 public class TestTreeObj {
     private int id;
     private int pid;
-    private int deep;
+    private Integer deep;
     private List<TestTreeObj> testTreeObj;
 
     public static List<TestTreeObj> initData(){
